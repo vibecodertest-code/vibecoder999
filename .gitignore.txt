@@ -1,0 +1,77 @@
+# === Python bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Environment variables ===
+.env
+.env.*
+
+# === Distribution / packaging ===
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Installer logs ===
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Unit test / coverage ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Type checkers ===
+.mypy_cache/
+.pyre/
+.pytype/
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints
+
+# === PyCharm / IntelliJ ===
+.idea/
+
+# === VS Code ===
+.vscode/
+
+# === macOS ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === Temporary files ===
+*.tmp
+*.temp
+*.swp
+*~
+
+# === Application data ===
+leads.csv
